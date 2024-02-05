@@ -8,6 +8,7 @@
         border: 1px solid #ddd;
         padding: 1.5em 2.5em;
         background: white;
+        
         .promo-button{
             a{
                 background: #c22033;
@@ -20,6 +21,39 @@
                 &:hover{
                     background: black;
 
+                }
+            }
+        }
+    }
+    .bg-red{
+        color: white;
+        background: #c22033;
+        p{
+            color: white;
+        }
+        .promo-button{
+            a{
+                background: black;
+                &:hover{
+                    background: white;
+                    color: #c20033;
+                }
+            }
+        }
+    }
+    .bg-green{
+        color: white;
+        background: #007c89;
+        p{
+            color: white;
+        }
+        .promo-button{
+            a{
+                background: white;
+                color: #007c89;
+                &:hover{
+                    background: black;
+                    color: white;
                 }
             }
         }

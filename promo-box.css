@@ -36,6 +36,35 @@ html h3, body h3 {
 .promo-box-ct .box .promo-button a:hover {
   background: black;
 }
+.promo-box-ct .bg-red {
+  color: white;
+  background: #c22033;
+}
+.promo-box-ct .bg-red p {
+  color: white;
+}
+.promo-box-ct .bg-red .promo-button a {
+  background: black;
+}
+.promo-box-ct .bg-red .promo-button a:hover {
+  background: white;
+  color: #c20033;
+}
+.promo-box-ct .bg-green {
+  color: white;
+  background: #007c89;
+}
+.promo-box-ct .bg-green p {
+  color: white;
+}
+.promo-box-ct .bg-green .promo-button a {
+  background: white;
+  color: #007c89;
+}
+.promo-box-ct .bg-green .promo-button a:hover {
+  background: black;
+  color: white;
+}
 
 @media screen and (min-width: 767px) {
   .promo-box-ct .box {

@@ -1,0 +1,43 @@
+// promo-box.scss
+@import "css/page-content";
+
+.promo-box-ct{
+    background: #eee;
+    padding: 2em;
+    .box{
+        border: 1px solid #ddd;
+        padding: 1.5em 2.5em;
+        background: white;
+        .promo-button{
+            a{
+                background: #c22033;
+                color: white;
+                padding: 15px 30px 13px;
+                min-width: 139px;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                &:hover{
+                    background: black;
+
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 767px){
+    .promo-box-ct{
+        .box{
+            max-width: 80em;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 65% 25%;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            .text{
+                padding: .5em 4em .5em 0;
+            }
+        }
+    }
+}

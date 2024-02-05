@@ -58,6 +58,23 @@
             }
         }
     }
+    .bg-black{
+        color: white;
+        background: black;
+        p{
+            color: white;
+        }
+        .promo-button{
+            a{
+                background: white;
+                color: black;
+                &:hover{
+                    background: #c22033;
+                    color: white;
+                }
+            }
+        }
+    }
 }
 @media screen and (min-width: 767px){
     .promo-box-ct{
